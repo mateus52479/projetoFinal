@@ -1,0 +1,1941 @@
+fileFormatVersion: 2
+guid: 5b60650a6da8a56438de9534022aeab3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -756153961193062634
+    second: srites_personagem_0
+  - first:
+      213: -7505203886889774142
+    second: srites_personagem_1
+  - first:
+      213: -8512932143842004404
+    second: srites_personagem_2
+  - first:
+      213: 6757969847608914830
+    second: srites_personagem_3
+  - first:
+      213: -9197799680075588820
+    second: srites_personagem_4
+  - first:
+      213: 2777552801588620305
+    second: srites_personagem_5
+  - first:
+      213: -9031687976344428187
+    second: srites_personagem_6
+  - first:
+      213: -8823204910751578669
+    second: srites_personagem_7
+  - first:
+      213: 445463887512712659
+    second: srites_personagem_8
+  - first:
+      213: -3335476840961994393
+    second: srites_personagem_9
+  - first:
+      213: -8100974162536234786
+    second: srites_personagem_10
+  - first:
+      213: -6460688835418322814
+    second: srites_personagem_11
+  - first:
+      213: -2681176920434752883
+    second: srites_personagem_12
+  - first:
+      213: 7569343378752381823
+    second: srites_personagem_13
+  - first:
+      213: 5253878914565789447
+    second: srites_personagem_14
+  - first:
+      213: -6115644371936889163
+    second: srites_personagem_15
+  - first:
+      213: -6534452015327617269
+    second: srites_personagem_16
+  - first:
+      213: -5913091776055134975
+    second: srites_personagem_17
+  - first:
+      213: -5380603308743978897
+    second: srites_personagem_18
+  - first:
+      213: 9128211001119611337
+    second: srites_personagem_19
+  - first:
+      213: 301022567688477144
+    second: srites_personagem_20
+  - first:
+      213: -1130871792735146899
+    second: srites_personagem_21
+  - first:
+      213: 4355000325585068402
+    second: srites_personagem_22
+  - first:
+      213: -4869509474074870224
+    second: srites_personagem_23
+  - first:
+      213: 7000189006331383095
+    second: srites_personagem_24
+  - first:
+      213: -6888893693926532682
+    second: srites_personagem_25
+  - first:
+      213: 8649733260626211059
+    second: srites_personagem_26
+  - first:
+      213: -7932368962303669383
+    second: srites_personagem_27
+  - first:
+      213: -1662373305379178524
+    second: srites_personagem_28
+  - first:
+      213: 8303819850992223375
+    second: srites_personagem_29
+  - first:
+      213: 6266573997099264487
+    second: srites_personagem_30
+  - first:
+      213: 3877643928090201267
+    second: srites_personagem_31
+  - first:
+      213: -8238902566173539212
+    second: srites_personagem_32
+  - first:
+      213: -5361683765304035060
+    second: srites_personagem_33
+  - first:
+      213: 1719171729644493857
+    second: srites_personagem_34
+  - first:
+      213: 401620339738369089
+    second: srites_personagem_35
+  - first:
+      213: -6596451314827469249
+    second: srites_personagem_36
+  - first:
+      213: -8143664407065855898
+    second: srites_personagem_37
+  - first:
+      213: 2058265231823646856
+    second: srites_personagem_38
+  - first:
+      213: -8511319168807649977
+    second: srites_personagem_39
+  - first:
+      213: 7961457705850016867
+    second: srites_personagem_40
+  - first:
+      213: 4529287646559729924
+    second: srites_personagem_41
+  - first:
+      213: -2600622930826782345
+    second: srites_personagem_42
+  - first:
+      213: 7303482679239910521
+    second: srites_personagem_43
+  - first:
+      213: 2008439706574104188
+    second: srites_personagem_44
+  - first:
+      213: -774409005539372630
+    second: srites_personagem_45
+  - first:
+      213: -6369592602422505204
+    second: srites_personagem_46
+  - first:
+      213: 8730641046268688927
+    second: srites_personagem_47
+  - first:
+      213: -9176178386102616542
+    second: srites_personagem_48
+  - first:
+      213: 5660826137430503769
+    second: srites_personagem_49
+  - first:
+      213: 1250251908234185684
+    second: srites_personagem_50
+  - first:
+      213: 8195384942793079150
+    second: srites_personagem_51
+  - first:
+      213: -3721497225453087042
+    second: srites_personagem_52
+  - first:
+      213: 8302536007777452821
+    second: srites_personagem_53
+  - first:
+      213: -8331686265844725084
+    second: srites_personagem_54
+  - first:
+      213: 2467778114857244634
+    second: srites_personagem_55
+  - first:
+      213: -2043480300834919256
+    second: srites_personagem_56
+  - first:
+      213: -5712130308591886202
+    second: srites_personagem_57
+  - first:
+      213: 7679646465173506441
+    second: srites_personagem_58
+  - first:
+      213: -6862782736346522180
+    second: srites_personagem_59
+  - first:
+      213: 5477876194535826647
+    second: srites_personagem_60
+  - first:
+      213: -5457808233711905679
+    second: srites_personagem_61
+  - first:
+      213: 6860446799455832613
+    second: srites_personagem_62
+  - first:
+      213: -8669201087459764686
+    second: srites_personagem_63
+  - first:
+      213: 7892661116706286072
+    second: srites_personagem_64
+  - first:
+      213: -2855649433097912735
+    second: srites_personagem_65
+  - first:
+      213: 8174660310026957480
+    second: srites_personagem_66
+  - first:
+      213: 6564505835796606564
+    second: srites_personagem_67
+  - first:
+      213: -1759303148890468461
+    second: srites_personagem_68
+  - first:
+      213: -5136980337620955440
+    second: srites_personagem_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: srites_personagem_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3649
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3dd0344d828d790800000000000000
+      internalID: -7505203886889774142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3649
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42fa41915dfbd980800000000000000
+      internalID: -8512932143842004404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_3
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 3649
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83b78965c129cd50800000000000000
+      internalID: 6757969847608914830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_4
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 3649
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2b94e94ce9da5080800000000000000
+      internalID: -9197799680075588820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 3646
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ca4939e89db8620800000000000000
+      internalID: 2777552801588620305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 3646
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561e2df23aff8a280800000000000000
+      internalID: -9031687976344428187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3520
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d58b2a81edad8580800000000000000
+      internalID: -8823204910751578669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3520
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5b577ab0b9e2600800000000000000
+      internalID: 445463887512712659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_9
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 3456
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7611be93c7106b1d0800000000000000
+      internalID: -3335476840961994393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 3456
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed009638bee839f80800000000000000
+      internalID: -8100974162536234786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_11
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 3393
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2880f800cb50756a0800000000000000
+      internalID: -6460688835418322814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3393
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82c28ddbcb8acad0800000000000000
+      internalID: -2681176920434752883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 3327
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73ad79e2b5bb0960800000000000000
+      internalID: 7569343378752381823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 3327
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707db9b590789e840800000000000000
+      internalID: 5253878914565789447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_15
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2496
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6b51688ddd02ba0800000000000000
+      internalID: -6115644371936889163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_16
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2494
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0fdf885386f055a0800000000000000
+      internalID: -6534452015327617269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_17
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2494
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10533fbcb5a70fda0800000000000000
+      internalID: -5913091776055134975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2494
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6016016cc14455b0800000000000000
+      internalID: -5380603308743978897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_19
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2496
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c91c8cca8bedae70800000000000000
+      internalID: 9128211001119611337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_20
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2494
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d992703e627d2400800000000000000
+      internalID: 301022567688477144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_21
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2494
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c238b98165e40f0800000000000000
+      internalID: -1130871792735146899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_22
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2494
+        width: 24
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271653be8b1107c30800000000000000
+      internalID: 4355000325585068402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_23
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2433
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e3e5fdee60c6cb0800000000000000
+      internalID: -4869509474074870224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_24
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2433
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d0afa00daa52160800000000000000
+      internalID: 7000189006331383095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2433
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9941e2fabb560a0800000000000000
+      internalID: -6888893693926532682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_26
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2435
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0b18182960a0870800000000000000
+      internalID: 8649733260626211059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_27
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 2433
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b4e8ec4709ae190800000000000000
+      internalID: -7932368962303669383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_28
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2433
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e738c059401ee8e0800000000000000
+      internalID: -1662373305379178524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_29
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2430
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f848a31b8281d3370800000000000000
+      internalID: 8303819850992223375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_30
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 2435
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e92dcf39d757f650800000000000000
+      internalID: 6266573997099264487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_31
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2367
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc4443ab9820d530800000000000000
+      internalID: 3877643928090201267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_32
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2367
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4740c2484c989ad80800000000000000
+      internalID: -8238902566173539212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_33
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 2367
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09f21bd5097795b0800000000000000
+      internalID: -5361683765304035060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_34
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 2369
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c9a5d5499bbd710800000000000000
+      internalID: 1719171729644493857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_35
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 2367
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c5da43297d29500800000000000000
+      internalID: 401620339738369089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_36
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 2367
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3edc898a72b474a0800000000000000
+      internalID: -6596451314827469249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_37
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2367
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668f8d66e54ebfe80800000000000000
+      internalID: -8143664407065855898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_38
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 2369
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 880b26cb25d609c10800000000000000
+      internalID: 2058265231823646856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_39
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 2303
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d3f359f48b1e980800000000000000
+      internalID: -8511319168807649977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_40
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 2303
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3649c731a97cc7e60800000000000000
+      internalID: 7961457705850016867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_41
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 2303
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409f1ca0e134bde30800000000000000
+      internalID: 4529287646559729924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_42
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 2308
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779955d193bb8ebd0800000000000000
+      internalID: -2600622930826782345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_43
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 2303
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974205f1dce2b5560800000000000000
+      internalID: 7303482679239910521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_44
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 2303
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76a32f95496fdb10800000000000000
+      internalID: 2008439706574104188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_45
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 2303
+        width: 25
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa156f9cc1fb045f0800000000000000
+      internalID: -774409005539372630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_46
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 2306
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0196a09649aa97a0800000000000000
+      internalID: -6369592602422505204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_47
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1441
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a3a4056c7792970800000000000000
+      internalID: 8730641046268688927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_48
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1438
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e7cb4106aa7a080800000000000000
+      internalID: -9176178386102616542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_49
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1438
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951bac0316b4f8e40800000000000000
+      internalID: 5660826137430503769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_50
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1438
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db8d068c79c95110800000000000000
+      internalID: 1250251908234185684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_51
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 1438
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6934c83f2bdbb170800000000000000
+      internalID: 8195384942793079150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_52
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1438
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb65444adf59a5cc0800000000000000
+      internalID: -3721497225453087042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_53
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1311
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5130776a288883370800000000000000
+      internalID: 8302536007777452821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_54
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1309
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aa03500c77ef5c80800000000000000
+      internalID: -8331686265844725084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_55
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1311
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad79c80ee1f4f3220800000000000000
+      internalID: 2467778114857244634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_56
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1309
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ace9334e7914a3e0800000000000000
+      internalID: -2043480300834919256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_57
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1309
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68063ad9fbf6ab0b0800000000000000
+      internalID: -5712130308591886202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_58
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1311
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989404585c5939a60800000000000000
+      internalID: 7679646465173506441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_59
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1185
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdd16d367f72c0a0800000000000000
+      internalID: -6862782736346522180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_60
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1185
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d460ea3063550c40800000000000000
+      internalID: 5477876194535826647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_61
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1185
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17456610458f144b0800000000000000
+      internalID: -5457808233711905679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_62
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 1185
+        width: 46
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ac7021404353f50800000000000000
+      internalID: 6860446799455832613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_63
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 1180
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236d787da8fc0b780800000000000000
+      internalID: -8669201087459764686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_64
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1180
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9e0d1f77d588d60800000000000000
+      internalID: 7892661116706286072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_65
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1055
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e372178f1be58d0800000000000000
+      internalID: -2855649433097912735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_66
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1053
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a234a2ad3a327170800000000000000
+      internalID: 8174660310026957480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_67
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 1055
+        width: 27
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ea2a4074fc91b50800000000000000
+      internalID: 6564505835796606564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_68
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1053
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f48267b13b597e0800000000000000
+      internalID: -1759303148890468461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_69
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 1053
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0decfed8997c5b8b0800000000000000
+      internalID: -5136980337620955440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: srites_personagem_70
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 1055
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32bcb01c7fd9ad747ae85dd15fb96165
+      internalID: 2094305054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b1bbeb5146e3cc54ba552b84593e2c6a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      srites_personagem_0: -756153961193062634
+      srites_personagem_1: -7505203886889774142
+      srites_personagem_10: -8100974162536234786
+      srites_personagem_11: -6460688835418322814
+      srites_personagem_12: -2681176920434752883
+      srites_personagem_13: 7569343378752381823
+      srites_personagem_14: 5253878914565789447
+      srites_personagem_15: -6115644371936889163
+      srites_personagem_16: -6534452015327617269
+      srites_personagem_17: -5913091776055134975
+      srites_personagem_18: -5380603308743978897
+      srites_personagem_19: 9128211001119611337
+      srites_personagem_2: -8512932143842004404
+      srites_personagem_20: 301022567688477144
+      srites_personagem_21: -1130871792735146899
+      srites_personagem_22: 4355000325585068402
+      srites_personagem_23: -4869509474074870224
+      srites_personagem_24: 7000189006331383095
+      srites_personagem_25: -6888893693926532682
+      srites_personagem_26: 8649733260626211059
+      srites_personagem_27: -7932368962303669383
+      srites_personagem_28: -1662373305379178524
+      srites_personagem_29: 8303819850992223375
+      srites_personagem_3: 6757969847608914830
+      srites_personagem_30: 6266573997099264487
+      srites_personagem_31: 3877643928090201267
+      srites_personagem_32: -8238902566173539212
+      srites_personagem_33: -5361683765304035060
+      srites_personagem_34: 1719171729644493857
+      srites_personagem_35: 401620339738369089
+      srites_personagem_36: -6596451314827469249
+      srites_personagem_37: -8143664407065855898
+      srites_personagem_38: 2058265231823646856
+      srites_personagem_39: -8511319168807649977
+      srites_personagem_4: -9197799680075588820
+      srites_personagem_40: 7961457705850016867
+      srites_personagem_41: 4529287646559729924
+      srites_personagem_42: -2600622930826782345
+      srites_personagem_43: 7303482679239910521
+      srites_personagem_44: 2008439706574104188
+      srites_personagem_45: -774409005539372630
+      srites_personagem_46: -6369592602422505204
+      srites_personagem_47: 8730641046268688927
+      srites_personagem_48: -9176178386102616542
+      srites_personagem_49: 5660826137430503769
+      srites_personagem_5: 2777552801588620305
+      srites_personagem_50: 1250251908234185684
+      srites_personagem_51: 8195384942793079150
+      srites_personagem_52: -3721497225453087042
+      srites_personagem_53: 8302536007777452821
+      srites_personagem_54: -8331686265844725084
+      srites_personagem_55: 2467778114857244634
+      srites_personagem_56: -2043480300834919256
+      srites_personagem_57: -5712130308591886202
+      srites_personagem_58: 7679646465173506441
+      srites_personagem_59: -6862782736346522180
+      srites_personagem_6: -9031687976344428187
+      srites_personagem_60: 5477876194535826647
+      srites_personagem_61: -5457808233711905679
+      srites_personagem_62: 6860446799455832613
+      srites_personagem_63: -8669201087459764686
+      srites_personagem_64: 7892661116706286072
+      srites_personagem_65: -2855649433097912735
+      srites_personagem_66: 8174660310026957480
+      srites_personagem_67: 6564505835796606564
+      srites_personagem_68: -1759303148890468461
+      srites_personagem_69: -5136980337620955440
+      srites_personagem_7: -8823204910751578669
+      srites_personagem_70: 2094305054
+      srites_personagem_71: 1792778499
+      srites_personagem_72: 1581210396
+      srites_personagem_73: 185105038
+      srites_personagem_8: 445463887512712659
+      srites_personagem_9: -3335476840961994393
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
