@@ -4,26 +4,35 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-   public float speed;
-   public Rigidbody2D rb;
-   public Vector2 mov;
-   public Animator anim;
+    public Animator anim;
+    float input_x, input_y = 0;
+    public float speed = 7f;
+    bool is_walking = false;
+
+    private void Start()
+    {
+        is_walking = false;
+    }
 
     void Update()
     {
-        mov.x = Input.GetAxisRaw("Horizontal");
-        mov.y = Input.GetAxisRaw("Vertical");
+        input_x = Input.GetAxisRaw("Horizontal");
+        input_y = Input.GetAxisRaw("Vertical");
+        is_walking = (input_x != 0 || input_y != 0);
 
-        anim.SetFloat("Horizontal", mov.x);
-        anim.SetFloat("Vertical", mov.y);
-        anim.SetFloat("Speed", mov.sqrMagnitude);
+        if (is_walking)
+        {
+            var move = new Vector3(input_x, input_y, 0).normalized;
+            transform.position += move * speed * Time.deltaTime;
+            anim.SetFloat("input_x", input_x);
+            anim.SetFloat("input_y", input_y);
+        }
 
-        mov.Normalize();
+        anim.SetBool("is_walking", is_walking);
 
-    }
-
-    private void FixedUpdate()
-    {
-        rb.MovePosition(rb.position + mov * speed * Time.fixedDeltaTime);
+        if (Input.GetKeyDown(KeyCode.Z))
+        {
+            anim.SetTrigger("attack");
+        }
     }
 }
