@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public Vector2 posicao_inicial;
+    public GamaManager gameManager;
     public Animator anim;
     float input_x, input_y = 0;
     public float speed = 7f;
@@ -12,6 +14,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         is_walking = false;
+        posicao_inicial = transform.position;
     }
 
     void Update()
@@ -34,5 +37,22 @@ public class Player : MonoBehaviour
         {
             anim.SetTrigger("attack");
         }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.tag == "Tag_death")
+        {
+            gameManager.perdeVidas(1);
+
+        }
+    }
+
+    public void reiniciar_posicao()
+    {
+        transform.position = posicao_inicial;
+
+
     }
 }
