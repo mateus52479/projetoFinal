@@ -61,7 +61,7 @@ public class Enemies : MonoBehaviour
         // Flip do sprite (vira o lado)
         if (dir.x != 0)
         {
-            sr.flipX = dir.x < 0;
+            sr.flipX = dir.x > 0;
         }
     }
 
