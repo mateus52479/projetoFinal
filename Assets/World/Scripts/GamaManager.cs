@@ -3,22 +3,15 @@ using TMPro;
 
 public class GamaManager : MonoBehaviour
 {
-    public int vidas = 3;
+    public HeartSystem heart;
 
-    public void perdeVidas(int vida)
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        vidas -= vida;
-
-        if (vidas <= 0)
+        if (collision.gameObject.tag == "Player")
         {
-            vidas = 0;
-            Time.timeScale = 0;
+            heart.vida--;
         }
-        Debug.Log("vidas: " + vidas);
-
-        GameObject player = GameObject.FindWithTag("Player");
-        player.GetComponent<Player>().reiniciar_posicao();
-
     }
 
 

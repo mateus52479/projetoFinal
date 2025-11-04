@@ -241,6 +241,8 @@ GameObject:
   - component: {fileID: 280360169}
   - component: {fileID: 280360168}
   - component: {fileID: 280360173}
+  - component: {fileID: 280360174}
+  - component: {fileID: 280360175}
   m_Layer: 0
   m_Name: Enemies
   m_TagString: Enemy
@@ -286,7 +288,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 1.125, y: 1.25}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -365,7 +367,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 9
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -955609468180279937, guid: 4e876ca5d099b14498edd67397a9e621, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -405,6 +407,43 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameManager: {fileID: 335288849}
   vida: 3
+  knockbackForce: 8
+  knockbackDuration: 0.15
+--- !u!114 &280360174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280360167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582364a104c467149b5e73e0a0d69239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heart: {fileID: 1540973972}
+--- !u!95 &280360175
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 280360167}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 362bb5d5c59c7a94dabacc6eab51bcbe, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &335288848
 GameObject:
   m_ObjectHideFlags: 0
@@ -434,7 +473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582364a104c467149b5e73e0a0d69239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidas: 3
+  heart: {fileID: 0}
 --- !u!4 &335288850
 Transform:
   m_ObjectHideFlags: 0
@@ -11814,7 +11853,13 @@ MonoBehaviour:
   posicao_inicial: {x: 0, y: 0}
   gameManager: {fileID: 0}
   anim: {fileID: 1540973969}
+  rb: {fileID: 0}
   speed: 7
+  vidaMax: 3
+  vidaAtual: 0
+  knockbackForce: 8
+  knockbackDuration: 0.2
+  invencibilidadeDuration: 1.5
 --- !u!114 &1540973971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11829,7 +11874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hitbox: {fileID: 1974475941}
   tempoAtivo: 0.2
-  tempoRecarga: 0.4
+  tempoRecarga: 0
 --- !u!114 &1540973972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11844,6 +11889,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vida: 3
   vidaMax: 3
+  isDead: 0
   coracao:
   - {fileID: 46388777}
   - {fileID: 1365556159}
@@ -11907,7 +11953,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: 0
+  m_Spacing: -18.11
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0

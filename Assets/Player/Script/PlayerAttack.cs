@@ -3,13 +3,13 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public GameObject hitbox; // arraste o objeto Hitbox aqui
-    public float tempoAtivo = 0.2f; // tempo que o hitbox fica ativo
-    public float tempoRecarga = 0.4f; // tempo até poder atacar de novo
+    public GameObject hitbox; 
+    public float tempoAtivo = 0.2f; 
+    public float tempoRecarga = 0.4f; 
 
     private bool podeAtacar = true;
     private Animator anim;
-    private Player player; // referência pro script Player (já existente)
+    private Player player; 
 
     void Start()
     {
@@ -22,7 +22,7 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        // ataque com Z, igual ao seu código
+        
         if (Input.GetKeyDown(KeyCode.Z) && podeAtacar)
         {
             StartCoroutine(Atacar());
@@ -32,9 +32,9 @@ public class PlayerAttack : MonoBehaviour
     IEnumerator Atacar()
     {
         podeAtacar = false;
-        anim.SetTrigger("attack"); // usa teu trigger atual
+        anim.SetTrigger("attack"); 
 
-        // ativa hitbox por um curto tempo
+        
         if (hitbox != null)
             hitbox.SetActive(true);
 
