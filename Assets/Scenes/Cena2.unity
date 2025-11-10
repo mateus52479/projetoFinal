@@ -180,7 +180,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10.791301
+  orthographic size: 10.946705
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -15373,8 +15373,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 832b3b8a51e9c3b44bee786610b2da1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  posicao_inicial: {x: 0, y: 0}
+  gameManager: {fileID: 0}
   anim: {fileID: 1978250390}
+  rb: {fileID: 0}
   speed: 7
+  vidaMax: 3
+  vidaAtual: 0
+  knockbackForce: 8
+  knockbackDuration: 0.2
+  invencibilidadeDuration: 1.5
 --- !u!95 &1978250390
 Animator:
   serializedVersion: 7
