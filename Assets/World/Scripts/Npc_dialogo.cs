@@ -19,7 +19,7 @@ public class Npc_dialogo : MonoBehaviour
 
     public void Interact()
     {
-        Collider2D hit = Physics2D.OverlapCircle(transform.position,  playerLayer);
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, radius, playerLayer);
 
         if (hit != null) 
         { 
