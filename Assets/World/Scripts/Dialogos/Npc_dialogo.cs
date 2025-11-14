@@ -9,6 +9,7 @@ public class Npc_dialogo : MonoBehaviour
     public string actorName;
 
     public LayerMask playerLayer;
+    public float radious;
 
     private Dialogo dc;
 
@@ -17,14 +18,23 @@ public class Npc_dialogo : MonoBehaviour
         dc = FindAnyObjectByType<Dialogo>();
     }
 
+    public void FixedUpdate()
+    {
+        Interact();
+    }
     public void Interact()
     {
-        Collider2D hit = Physics2D.OverlapCircle(transform.position, radius, playerLayer);
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, radious, playerLayer);
 
         if (hit != null) 
         { 
             dc.speech(profile, speechTxt, actorName);
         }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.DrawWireSphere(transform.position, radious);
     }
 
 }
