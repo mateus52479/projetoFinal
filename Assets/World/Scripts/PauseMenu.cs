@@ -14,9 +14,12 @@ public class PauseMenu : MonoBehaviour
     {
         pauseUI.SetActive(false);
 
-        // Atualiza toggle baseado no volume
+        // Atualiza o toggle baseado no volume atual
         if (muteToggle != null)
             muteToggle.isOn = AudioListener.volume == 0;
+
+        // Garante que o toggle chame a função quando clicado
+        muteToggle.onValueChanged.AddListener(ToggleSound);
     }
 
     void Update()
@@ -34,29 +37,32 @@ public class PauseMenu : MonoBehaviour
     public void Pause()
     {
         pauseUI.SetActive(true);
-        Time.timeScale = 0;  // pausa o jogo
+        Time.timeScale = 0;
         isPaused = true;
+
+        // Atualiza o estado do toggle ao abrir o pause
+        if (muteToggle != null)
+            muteToggle.isOn = AudioListener.volume == 0;
     }
 
     // ========== DESPAUSAR ==========
     public void Resume()
     {
         pauseUI.SetActive(false);
-        Time.timeScale = 1;  // volta ao normal
+        Time.timeScale = 1;
         isPaused = false;
     }
 
     // ========== MUTAR / DESMUTAR ==========
     public void ToggleSound(bool isMuted)
     {
-        AudioListener.volume = isMuted ? 0 : 1;
+        AudioListener.volume = isMuted ? 0f : 1f;
     }
 
     // ========== VOLTAR AO MENU INICIAL ==========
     public void GoToMainMenu()
     {
-        Time.timeScale = 1; // garante que o jogo volte ao normal
-        SceneManager.LoadScene("Menu"); // troque pelo nome da sua cena
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Menu");
     }
-
 }
