@@ -8006,8 +8006,7 @@ Grid:
 <<<<<<< HEAD
 --- !u!1 &504234332
 =======
---- !u!1 &603342049
->>>>>>> c8a06117b197fc6d54b3afd5f9afe580150156db
+
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8022,12 +8021,7 @@ GameObject:
   - component: {fileID: 504234334}
   m_Layer: 0
   m_Name: Canvas
-=======
-  - component: {fileID: 603342050}
-  - component: {fileID: 603342051}
-  m_Layer: 5
-  m_Name: HeartController
->>>>>>> c8a06117b197fc6d54b3afd5f9afe580150156db
+
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
