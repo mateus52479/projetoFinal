@@ -5105,7 +5105,7 @@ MonoBehaviour:
   stepBackDistance: 0.2
   stepBackCount: 4
   vidaMax: 20
-  vidaAtual: 1
+  vidaAtual: 20
   knockbackForce: 10
   barraVida: {fileID: 0}
 --- !u!212 &1835758086
