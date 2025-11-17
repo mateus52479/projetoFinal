@@ -3,12 +3,16 @@ using TMPro;
 
 public class GameTimer : MonoBehaviour
 {
-    public float startTime = 30f; // tempo inicial em segundos
+    public float startTime = 30f; // tempo inicial
     private float currentTime;
 
     public TextMeshProUGUI timerText;
-    public GameObject enemyPrefab;
-    public Transform[] spawnPoints; // posições onde os inimigos vão nascer
+
+    // inimigo já existente na cena, DESATIVADO
+    public GameObject enemyBase;
+
+    // pontos de spawn
+    public Transform[] spawnPoints;
 
     private bool hasSpawnedFirstWave = false;
     private bool hasSpawnedSecondWave = false;
@@ -17,29 +21,30 @@ public class GameTimer : MonoBehaviour
     {
         currentTime = startTime;
         UpdateTimerUI();
-        SpawnEnemies(4); // spawna 4 no início
+
+        // spawn inicial de 4 inimigos
+        SpawnEnemies(4);
         hasSpawnedFirstWave = true;
     }
 
     void Update()
     {
-        // diminui o tempo
         currentTime -= Time.deltaTime;
         UpdateTimerUI();
 
-        // depois de 10 segundos, spawna mais 2
+        // depois de 10 segundos, spawna +2
         if (currentTime <= startTime - 10f && !hasSpawnedSecondWave)
         {
             SpawnEnemies(2);
             hasSpawnedSecondWave = true;
         }
 
-        // se o tempo acabou
+        // quando o tempo acaba
         if (currentTime <= 0)
         {
             currentTime = 0;
             DestroyAllEnemies();
-            enabled = false; // desativa o script pra não rodar mais
+            enabled = false;
         }
     }
 
@@ -54,13 +59,17 @@ public class GameTimer : MonoBehaviour
         for (int i = 0; i < amount; i++)
         {
             Transform point = spawnPoints[Random.Range(0, spawnPoints.Length)];
-            Instantiate(enemyPrefab, point.position, Quaternion.identity);
+
+            // cria um clone do inimigo existente e ativa
+            GameObject clone = Instantiate(enemyBase, point.position, Quaternion.identity);
+            clone.SetActive(true);
         }
     }
 
     void DestroyAllEnemies()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
         foreach (GameObject e in enemies)
         {
             Destroy(e);

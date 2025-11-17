@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Collections;
+
 
 public class HeartSystem : MonoBehaviour
 {
@@ -12,59 +14,60 @@ public class HeartSystem : MonoBehaviour
     public Image[] coracao;
     public Sprite cheio;
     public Sprite vazio;
+
     void Start()
     {
         player = GetComponent<Player>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         HealthLogic();
         DeadState();
     }
 
-    void HealthLogic() { 
+    void HealthLogic()
+    {
         if (vida > vidaMax)
         {
             vida = vidaMax;
         }
 
-
         for (int i = 0; i < coracao.Length; i++)
         {
             if (i < vida)
-            {
                 coracao[i].sprite = cheio;
-            }
             else
-            {
                 coracao[i].sprite = vazio;
-            }
-
-
 
             if (i < vidaMax)
-            {
                 coracao[i].enabled = true;
-            }
             else
-            {
                 coracao[i].enabled = false;
-            }
         }
     }
 
     void DeadState()
     {
-        if (vida <= 0)
+        if (vida <= 0 && !isDead)
         {
             isDead = true;
-            player.anim.SetBool("isDead", isDead);
+
+            // animação de morte
+            player.anim.SetBool("isDead", true);
+
+            // impede o jogador de se mover
             GetComponent<Player>().enabled = false;
-            Destroy(gameObject, 2.0f);
+
+            // inicia coroutine para trocar de cena
+            StartCoroutine(LoadMenu());
         }
     }
 
+    IEnumerator LoadMenu()
+    {
+        yield return new WaitForSeconds(2f); // espera a animação terminar
 
+        SceneManager.LoadScene("Menu"); // coloque o nome da sua cena aqui
+    }
 }
