@@ -7858,13 +7858,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-<<<<<<< HEAD
-  m_Text: mute
-=======
-  m_Text: 'Mutar
-
-'
->>>>>>> 0c11bdccb3341325af8dece0ac0903ad1dd05c99
+  m_Text: Mutar
 --- !u!222 &497226640
 CanvasRenderer:
   m_ObjectHideFlags: 0
