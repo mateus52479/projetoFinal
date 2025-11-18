@@ -1,50 +1,55 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
 
 public class GameTimer : MonoBehaviour
 {
-    public float startTime = 30f; // tempo inicial
+    public float startTime = 30f;
     private float currentTime;
 
     public TextMeshProUGUI timerText;
 
-    // inimigo j� existente na cena, DESATIVADO
+    // inimigo base desativado
     public GameObject enemyBase;
 
-    // pontos de spawn
+    // pontos de spawn dos inimigos
     public Transform[] spawnPoints;
 
-    private bool hasSpawnedFirstWave = false;
+
+    public GameObject tp;
+
+    public Transform tpSpawnPoint;
+
     private bool hasSpawnedSecondWave = false;
+    private bool hasEnded = false;
 
     void Start()
     {
         currentTime = startTime;
         UpdateTimerUI();
 
-        // spawn inicial de 4 inimigos
-        SpawnEnemies(4);
-        hasSpawnedFirstWave = true;
+        // spawn inicial de 2 inimigos
+        SpawnEnemies(2);
     }
 
     void Update()
     {
+        if (hasEnded) return;
+
         currentTime -= Time.deltaTime;
         UpdateTimerUI();
 
-        // depois de 10 segundos, spawna +2
+        // depois de 10 segundos spawna +2
         if (currentTime <= startTime - 10f && !hasSpawnedSecondWave)
         {
             SpawnEnemies(2);
             hasSpawnedSecondWave = true;
         }
 
-        // quando o tempo acaba
+        // cronômetro zerou
         if (currentTime <= 0)
         {
             currentTime = 0;
-            DestroyAllEnemies();
-            enabled = false;
+            EndTimer();
         }
     }
 
@@ -59,8 +64,6 @@ public class GameTimer : MonoBehaviour
         for (int i = 0; i < amount; i++)
         {
             Transform point = spawnPoints[Random.Range(0, spawnPoints.Length)];
-
-            // cria um clone do inimigo existente e ativa
             GameObject clone = Instantiate(enemyBase, point.position, Quaternion.identity);
             clone.SetActive(true);
         }
@@ -74,5 +77,21 @@ public class GameTimer : MonoBehaviour
         {
             Destroy(e);
         }
+    }
+
+    void EndTimer()
+    {
+        hasEnded = true;
+
+        DestroyAllEnemies();
+
+        // muda a mensagem
+        timerText.text = "porta aberta";
+
+        // cria o objeto tp no ponto exato definido
+        Instantiate(tp, tpSpawnPoint.position, Quaternion.identity).SetActive(true);
+
+        // desativa o script
+        enabled = false;
     }
 }
