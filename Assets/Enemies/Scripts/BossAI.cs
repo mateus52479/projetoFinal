@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
+
 
 public class BossAI : MonoBehaviour
 {
@@ -68,6 +70,7 @@ public class BossAI : MonoBehaviour
         {
             Morrer();
             return;
+
         }
     }
 
@@ -165,6 +168,7 @@ public class BossAI : MonoBehaviour
         if (vidaAtual <= 0)
         {
             Morrer();
+            SceneManager.LoadScene("Fim");
         }
     }
 
